@@ -1,27 +1,30 @@
-h1{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    
+*{
+    overflow: hidden;
 }
 
-.ynov{
+.fl{
     background-image: url(data:image/png;base64,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);
     background-position: left;
     background-size: 10%;
 }
 
-
-body{
-    position: relative;
-    background-color: grey ;
-    border: 40px solid black;
-    width: 70%;
-    height: 1000px;
-    margin: auto;
+.ynov{
+    background-image: url(../src/logo_ynov_campus_rvb_blanc.jpg);
+    background-position: left;
+    background-size: 10%;
 }
 
-
+.aix{
+    position: relative;
+    background-color: white ;
+    border: 40px solid white;
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 .ctn-btn{
     display: flex;
@@ -41,6 +44,43 @@ body{
 
 .ch-pg{
     position: relative;
+    display:inline ;
+    /* flex-direction: column;
+    justify-content: space-around; */
+
+}
+
+h2{
+    display: block;
+    /* background-color: cyan;
+    border: 4px solid cyan; */
+    color: rgb(71, 151, 248);
+}
+
+
+.logo{
+    position: relative; 
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+} 
+
+ .campus{
+    width: 100%;
+    position:relative;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.cp{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
 }
