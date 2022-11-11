@@ -12,8 +12,6 @@
     background-image: url(../src/logo_ynov_campus_rvb_blanc.jpg);
     background-position: left;
     background-size: 10%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
 }
 
 .aix{
@@ -74,8 +72,7 @@
     align-items: center;
 }
 
-.intro{
-    display: flex;
-    align-items: center;
+.texte{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
 }
-
