@@ -14,6 +14,30 @@
     background-size: 10%;
 }
 
+.audio{
+    background-image: url(../src/Audio\ couleur.png);
+    background-position: left;
+    background-size: 10%;
+}
+
+.crea{
+    background-image: url(../src/Crea\ couleur.png);
+    background-position: left;
+    background-size: 10%;
+}
+
+.market{
+    background-image: url(../src/Market\ couleur.png);
+    background-position: left;
+    background-size: 10%;
+}
+
+.info{
+    background-image: url(../src/Info\ couleur.png);
+    background-position: left;
+    background-size: 10%;
+}
+
 .aix{
     position: relative;
     background-color: white ;
@@ -21,9 +45,12 @@
     width: 75%;
     height: 100vh;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    position:relative ;
+     display: flex;
+    /*flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center; */
+
 }
 
 .ctn-btn{
@@ -44,13 +71,10 @@
 
 .ch-pg{
     position: relative;
-    display: flex  ;
-    flex-direction: column;
-    justify-content: space-evenly;
-
+    display: block  ;
 }
 
-.logo{
+.titre{
     position: relative; 
     display: flex;
     flex-direction: column;
@@ -74,5 +98,40 @@
 
 .texte{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
+}
+
+.ch-bt{
+    position: relative;
+    display: flex ;
+}
+
+
+button {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.pos{
+    position: relative;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    position:relative ;
+    display: inline;
 }
