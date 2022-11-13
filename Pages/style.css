@@ -46,12 +46,20 @@
     height: 100vh;
     margin: auto;
     position:relative ;
-     display: flex;
-    /*flex-direction: column;
-    justify-content:space-evenly;
-    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
 
 }
+
+.paris{
+    background-image: url(../src/logo_ynov_campus_paris.png);
+    background-position: left;
+    background-size: 10%;
+}
+
+
 
 .ctn-btn{
     display: flex;
@@ -74,12 +82,13 @@
     display: block  ;
 }
 
+
 .titre{
     position: relative; 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    font-family: sans-serif ;
 } 
 
  .campus{
@@ -97,7 +106,10 @@
 }
 
 .texte{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica;
+    font-size: large;
+    display: flex;
+    align-items: center;
 }
 
 .ch-bt{
